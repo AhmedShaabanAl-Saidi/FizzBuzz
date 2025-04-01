@@ -44,7 +44,7 @@ namespace FizzBuzz.Tests
         }
 
         [Test]
-        public void GetOverlappings_MultiLineInput_ReturnsCorrectOutput()
+        public void GetOverlappings_InputWithSpecialCharacters_ReturnsCorrectOutput()
         {
             string input = "!@#$%^&*()_+-=[]{}|;':\",./<>?\n!@#$%^&*()";
             var result = _detector.GetOverlappings(input);
